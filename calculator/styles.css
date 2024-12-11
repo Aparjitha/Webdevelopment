@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'calculatorfont';
+    src: url('fontstyl.woff.ttf') format('woff');
+
+}
+
+
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #1a77cd ;
+    border-radius: 30px; /* Changed background color to blue */
+  }
+  
+  .display {
+    text-size-adjust: 20%;
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    background-color: #91bde3;
+    border-radius: 5px;
+    font-family: 'calculatorfont', digital-7;
+    font-size: 5em;
+  }
+  
+  button {
+    border: 0px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #165ca6 ; 
+    text-decoration-color: white;
+    border-radius: 5px;/* Changed button color to light blue */
+  }
+  .equal {
+  border: 0px;
+  width: 170px;
+  color: white;
+  font-size: 20px;
+  background-color: #165ca6 ; 
+  border-radius: 5px;
+  }
